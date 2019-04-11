@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Darul Faqih</string>
+
+    <string-array name="gender_list">
+        <item>Pilihan Kelamin</item>
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
+</resources>

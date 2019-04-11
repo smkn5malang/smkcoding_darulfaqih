@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Home">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        <ImageView
+                android:id="@+id/p1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/p1"
+                android:layout_marginTop="-30dp"
+                android:layout_centerHorizontal="true"
+                android:stateListAnimator="@null"/>
+        <Button
+                android:id="@+id/btnInfo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Informasi"
+                android:layout_marginTop="10dp"
+                android:background="#aed581"
+                android:stateListAnimator="@null"
+                android:layout_below="@+id/p1"/>
+
+        <Button
+                android:id="@+id/btnSantri"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Pendaftaran Santri"
+                android:layout_marginTop="30dp"
+                android:background="#aed581"
+                android:stateListAnimator="@null"
+                android:layout_below="@+id/btnInfo"/>
+
+        <Button
+                android:id="@+id/btnKajian"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Kajian"
+                android:layout_marginTop="30dp"
+                android:background="#aed581"
+                android:stateListAnimator="@null"
+                android:layout_below="@+id/btnSantri"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
